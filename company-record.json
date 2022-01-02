@@ -1,0 +1,223 @@
+    { 
+      "company" : 
+      { 
+        "metadata" : 
+        [
+            {
+                "name" : "title"
+                ,"value" : "BigCo Company Records"
+              }
+            ,
+            {
+                "name" : "author"
+                ,"value" : "Mike Amundsen"
+              }
+            ,
+            {
+                "name" : "release"
+                ,"value" : "1.0.0"
+              }
+          ],
+          "links" : 
+          [
+              {
+                  "id" : "self"
+                  ,"name" : "self"
+                  ,"href" : "http://company-atk.herokuapp.com/x9w1wqk3s9"
+                  ,"rel" : "self colllection company"
+                  ,"tags" : "collection company self home list item"
+                  ,"title" : "Self"
+                  ,"method" : "GET"
+                  ,"properties" : 
+              [
+	      ]	      
+              }
+              ,
+              {
+                  "id" : "home"
+                  ,"name" : "home"
+                  ,"href" : "http://company-atk.herokuapp.com/"
+                  ,"rel" : "collection company"
+                  ,"tags" : "collection company home list item"
+                  ,"title" : "Home"
+                  ,"method" : "GET"
+                  ,"properties" : 
+              [
+	      ]	      
+              }
+              ,
+              {
+                  "id" : "list"
+                  ,"name" : "list"
+                  ,"href" : "http://company-atk.herokuapp.com/list/"
+                  ,"rel" : "collection company"
+                  ,"tags" : "collection company home list item"
+                  ,"title" : "List"
+                  ,"method" : "GET"
+                  ,"properties" : 
+              [
+	      ]	      
+              }
+              ,
+              {
+                  "id" : "filter"
+                  ,"name" : "filter"
+                  ,"href" : "http://company-atk.herokuapp.com/filter/"
+                  ,"rel" : "collection company filter"
+                  ,"tags" : "collection company filter list item"
+                  ,"title" : "Search"
+                  ,"method" : "GET"
+                  ,"properties" : 
+              [
+		{
+		    "name" : "status"
+		    ,"value" : ""
+		}
+                ,
+		{
+		    "name" : "companyName"
+		    ,"value" : ""
+		}
+                ,
+		{
+		    "name" : "stateProvince"
+		    ,"value" : ""
+		}
+                ,
+		{
+		    "name" : "country"
+		    ,"value" : ""
+		}
+	      ]	      
+              }
+          ],
+          "items" : 
+          [
+              {
+                "links" : 
+                [
+                    {
+                        "id" : "read_x9w1wqk3s9"
+                        ,"name" : "read"
+                        ,"href" : "http://company-atk.herokuapp.com/x9w1wqk3s9"
+                        ,"rel" : "item company read"
+                        ,"title" : "Read"
+                        ,"method" : "GET"
+                        ,"properties" : 
+                    [
+              ]	      
+                    }
+                    ,
+                    {
+                        "id" : "update_x9w1wqk3s9"
+                        ,"name" : "update"
+                        ,"href" : "http://company-atk.herokuapp.com/x9w1wqk3s9"
+                        ,"rel" : "item edit-form company"
+                        ,"tags" : "company list item"
+                        ,"title" : "Edit"
+                        ,"method" : "PUT"
+                        ,"properties" : 
+                    [
+          {
+              "name" : "id"
+              ,"value" : "x9w1wqk3s9"
+          }
+                      ,
+          {
+              "name" : "companyName"
+              ,"value" : "Mingles"
+          }
+                      ,
+          {
+              "name" : "email"
+              ,"value" : "mingles@example.org"
+          }
+                      ,
+          {
+              "name" : "status"
+              ,"value" : "active"
+          }
+                      ,
+          {
+              "name" : "streetAddress"
+              ,"value" : "123 main"
+          }
+                      ,
+          {
+              "name" : "city"
+              ,"value" : "Byteville"
+          }
+                      ,
+          {
+              "name" : "stateProvince"
+              ,"value" : "MD"
+          }
+                      ,
+          {
+              "name" : "postalCode"
+              ,"value" : "12345"
+          }
+                      ,
+          {
+              "name" : "country"
+              ,"value" : "USA"
+          }
+                      ,
+          {
+              "name" : "telephone"
+              ,"value" : "123-456-7890"
+          }
+                      ,
+          {
+              "name" : "email"
+              ,"value" : "mingles@example.org"
+          }
+              ]	      
+                    }
+                    ,
+                    {
+                        "id" : "status_x9w1wqk3s9"
+                        ,"name" : "status"
+                        ,"href" : "http://company-atk.herokuapp.com/status/x9w1wqk3s9"
+                        ,"rel" : "item company status"
+                        ,"tags" : "company item list status"
+                        ,"title" : "Status"
+                        ,"method" : "PATCH"
+                        ,"properties" : 
+                    [
+          {
+              "name" : "status"
+              ,"value" : "active"
+          }
+              ]	      
+                    }
+                    ,
+                    {
+                        "id" : "remove_x9w1wqk3s9"
+                        ,"name" : "remove"
+                        ,"href" : "http://company-atk.herokuapp.com/x9w1wqk3s9"
+                        ,"rel" : "item company remove"
+                        ,"title" : "Remove"
+                        ,"method" : "DELETE"
+                        ,"properties" : 
+                    [
+              ]	      
+                    }
+                ]
+                ,"id" : "x9w1wqk3s9"
+                ,"companyName" : "Mingles"
+                ,"streetAddress" : "123 main"
+                ,"city" : "Byteville"
+                ,"stateProvince" : "MD"
+                ,"postalCode" : "12345"
+                ,"country" : "USA"
+                ,"telephone" : "123-456-7890"
+                ,"email" : "mingles@example.org"
+                ,"status" : "active"
+                ,"dateCreated" : "2020-03-12T03:33:21.802Z"
+                ,"dateUpdated" : "2021-07-10T17:58:01.813Z"
+            }
+          ]
+        }
+     }
+  
